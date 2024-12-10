@@ -19,7 +19,7 @@ permissions:
 # 진행 중인 실행과 마지막으로 대기 중인 실행 사이에 대기 중인 실행을 건너뛰어 하나의 동시 배포만 허용합니다.
 # 그러나 이러한 프로덕션 배포가 완료되도록 진행 중인 실행은 취소하지 않습니다.
 concurrency:
-  group: pages
+  group: page
   cancel-in-progress: false
 
 jobs:
